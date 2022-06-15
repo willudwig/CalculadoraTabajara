@@ -18,7 +18,11 @@ namespace CalculadoraTabajaraConsoleApp
 
                 Console.WriteLine("Tela Principal\n");
 
-                Console.WriteLine("Digite S para sair\n");
+                Console.WriteLine("Digite '1' para Somar\n");
+
+                Console.WriteLine("Digite '2' para Subtrair\n");
+
+                Console.WriteLine("Digite S para Sair\n");
 
                 Console.Write("Opção: ");
                 opcao = Console.ReadLine();
@@ -38,6 +42,14 @@ namespace CalculadoraTabajaraConsoleApp
 
                 switch (opcao)
                 {
+                    case "1":
+                        operacao = "Adição";
+                        break;
+
+                    case "2":
+                        operacao = "Subtração";
+                        break;
+
                     default:
                         break;
                 }
@@ -56,12 +68,21 @@ namespace CalculadoraTabajaraConsoleApp
 
                 switch (opcao)
                 {
+                    case "1":
+                        resultado = primeiroNumero + segundoNumero;
+                        break;
+
+                    case "2":
+                        resultado = primeiroNumero - segundoNumero;
+                        break;
+
                     default:
                         break;
                 }
                 #endregion
 
                 #region Mostrar Resultado
+
                 Console.Clear();
 
                 Console.WriteLine("Calculadora Tabajara\n");
@@ -75,6 +96,7 @@ namespace CalculadoraTabajaraConsoleApp
                 Console.ReadLine();
 
                 Console.Clear();
+
                 #endregion
             }
         }
