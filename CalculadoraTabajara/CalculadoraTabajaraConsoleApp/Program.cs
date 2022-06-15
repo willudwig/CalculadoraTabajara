@@ -66,7 +66,7 @@ namespace CalculadoraTabajaraConsoleApp
 
                 double resultado = 0;
 
-                switch (opcao)
+                switch (opcao) 
                 {
                     case "1":
                         resultado = primeiroNumero + segundoNumero;
