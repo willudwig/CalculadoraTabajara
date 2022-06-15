@@ -14,7 +14,7 @@ namespace CalculadoraTabajaraConsoleApp
 
                 Console.Clear();
 
-                Console.WriteLine("Calculadora Tabajara\n");
+                Console.WriteLine("Calculadora Tabajara 1.0\n");
 
                 Console.WriteLine("Tela Principal\n");
 
@@ -36,7 +36,7 @@ namespace CalculadoraTabajaraConsoleApp
 
                 Console.Clear();
 
-                Console.WriteLine("Calculadora Tabajara\n");
+                Console.WriteLine("Calculadora Tabajara 1.0\n");
 
                 string operacao = "";
 
@@ -85,7 +85,7 @@ namespace CalculadoraTabajaraConsoleApp
 
                 Console.Clear();
 
-                Console.WriteLine("Calculadora Tabajara\n");
+                Console.WriteLine("Calculadora Tabajara 1.0\n");
 
                 Console.WriteLine("Tela de Resultados\n");
 
