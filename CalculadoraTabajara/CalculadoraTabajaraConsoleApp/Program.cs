@@ -24,6 +24,8 @@ namespace CalculadoraTabajaraConsoleApp
 
                 Console.WriteLine("Digite '3' para Multiplicar\n");
 
+                Console.WriteLine("Digite '4' para Divisão\n");
+
                 Console.WriteLine("Digite S para Sair\n");
 
                 Console.Write("Opção: ");
@@ -56,6 +58,10 @@ namespace CalculadoraTabajaraConsoleApp
                         operacao = "Multiplicação";
                         break;
 
+                    case "4":
+                        operacao = "Divisão";
+                        break;
+
                     default:
                         break;
                 }
@@ -84,6 +90,10 @@ namespace CalculadoraTabajaraConsoleApp
 
                     case "3":
                         resultado = primeiroNumero * segundoNumero;
+                        break;
+
+                    case "4":
+                        resultado = primeiroNumero / segundoNumero;
                         break;
 
                     default:
