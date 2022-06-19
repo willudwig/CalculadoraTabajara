@@ -22,6 +22,8 @@ namespace CalculadoraTabajaraConsoleApp
 
                 Console.WriteLine("Digite '2' para Subtrair\n");
 
+                Console.WriteLine("Digite '3' para Multiplicar\n");
+
                 Console.WriteLine("Digite S para Sair\n");
 
                 Console.Write("Opção: ");
@@ -50,6 +52,10 @@ namespace CalculadoraTabajaraConsoleApp
                         operacao = "Subtração";
                         break;
 
+                    case "3":
+                        operacao = "Multiplicação";
+                        break;
+
                     default:
                         break;
                 }
@@ -74,6 +80,10 @@ namespace CalculadoraTabajaraConsoleApp
 
                     case "2":
                         resultado = primeiroNumero - segundoNumero;
+                        break;
+
+                    case "3":
+                        resultado = primeiroNumero * segundoNumero;
                         break;
 
                     default:
